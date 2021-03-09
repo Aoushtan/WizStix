@@ -4,7 +4,8 @@ enum network
 	player_connect,
 	player_joined,
 	player_disconnect,
-	move
+	move,
+	chat
 }
 
 client = network_create_socket(network_socket_tcp);

@@ -3,6 +3,7 @@
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},"order":1,},
     {"id":{"name":"sp_player","path":"sprites/sp_player/sp_player.yy",},"order":0,},
     {"id":{"name":"network_player_join","path":"scripts/network_player_join/network_player_join.yy",},"order":1,},
+    {"id":{"name":"con_GUI","path":"objects/con_GUI/con_GUI.yy",},"order":2,},
     {"id":{"name":"recieved_packet","path":"scripts/recieved_packet/recieved_packet.yy",},"order":0,},
     {"id":{"name":"con_server","path":"objects/con_server/con_server.yy",},"order":0,},
     {"id":{"name":"room_server","path":"rooms/room_server/room_server.yy",},"order":0,},

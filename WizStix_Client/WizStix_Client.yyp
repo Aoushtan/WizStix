@@ -4,6 +4,7 @@
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},"order":1,},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},"order":1,},
     {"id":{"name":"recieved_packet","path":"scripts/recieved_packet/recieved_packet.yy",},"order":0,},
+    {"id":{"name":"con_chat","path":"objects/con_chat/con_chat.yy",},"order":4,},
     {"id":{"name":"o_slave","path":"objects/o_slave/o_slave.yy",},"order":2,},
     {"id":{"name":"con_client","path":"objects/con_client/con_client.yy",},"order":0,},
     {"id":{"name":"room_mainmenu","path":"rooms/room_mainmenu/room_mainmenu.yy",},"order":1,},

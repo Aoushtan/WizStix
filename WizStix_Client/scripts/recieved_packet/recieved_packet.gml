@@ -69,5 +69,16 @@ function recieved_packet(buffer){
 			_player.x = move_x;
 			_player.y = move_y;
 			break;
+			
+		case network.chat:
+			var _chat = buffer_read(buffer,buffer_string);
+			var _color = buffer_read(buffer,buffer_u8);
+			ds_list_insert(global.chat,0,_chat);
+			
+			if _color = 1 
+				ds_list_insert(global.chat_color,0,c_white);
+			if _color = 2
+				ds_list_insert(global.chat_color,0,c_yellow);
+			break;
 	}
 }
