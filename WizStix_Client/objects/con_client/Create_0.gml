@@ -9,7 +9,9 @@ enum network
 
 client = network_create_socket(network_socket_tcp);
 port = 65432;
-network_connect(client,"174.81.255.120",port);
+//127.0.0.1 for laptop local dev
+//174.81.255.120 for desktop dev
+network_connect(client,"127.0.0.1",port);
 
 client_buffer = buffer_create(1024,buffer_fixed,1);
 

@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"58800a47-da67-4057-ad85-643764a330af","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "WizStix_Client",
-    "path": "WizStix_Client.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_player",

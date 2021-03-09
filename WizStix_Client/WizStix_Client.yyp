@@ -1,7 +1,7 @@
 {
   "resources": [
     {"id":{"name":"con_game","path":"objects/con_game/con_game.yy",},"order":3,},
-    {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},"order":15,},
+    {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},"order":1,},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},"order":1,},
     {"id":{"name":"recieved_packet","path":"scripts/recieved_packet/recieved_packet.yy",},"order":0,},
     {"id":{"name":"o_slave","path":"objects/o_slave/o_slave.yy",},"order":2,},
