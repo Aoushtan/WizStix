@@ -53,6 +53,7 @@ function recieved_packet(buffer, socket){
 				var _sock = ds_list_find_value(socket_list,i);
 				buffer_seek(server_buffer,buffer_seek_start,0);
 				buffer_write(server_buffer,buffer_u8,network.chat);
+				buffer_write(server_buffer,buffer_string,_chat);
 				buffer_write(server_buffer,buffer_u8,1); //White text for clients
 				network_send_packet(_sock,server_buffer,buffer_tell(server_buffer));
 				i++;

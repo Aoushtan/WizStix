@@ -20,5 +20,5 @@ socket_list = ds_list_create();
 //System to hold all of the sockets of the player to get the instanceId
 socket_to_instanceid = ds_map_create();
 
-playerSpawn_x = 100 + irandom(10);
-playerSpawn_y = 100 - irandom(10);
+playerSpawn_x = room_width / 2;
+playerSpawn_y = room_height / 2;

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_p_inferno_idle",
-    "path": "sprites/s_p_inferno_idle/s_p_inferno_idle.yy",
+    "name": "s_login_button",
+    "path": "sprites/s_login_button/s_login_button.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_slave","path":"objects/o_slave/o_slave.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"o_slave","path":"objects/o_slave/o_slave.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":6,"collisionObjectId":null,"parent":{"name":"o_login_button","path":"objects/o_login_button/o_login_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_slave",
+  "name": "o_login_button",
   "tags": [],
   "resourceType": "GMObject",
 }

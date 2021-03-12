@@ -1,1 +1,1 @@
-username = get_string("Please enter a username","");
+username = "";

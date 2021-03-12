@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_p_inferno_idle",
-    "path": "sprites/s_p_inferno_idle/s_p_inferno_idle.yy",
+    "name": "s_slave",
+    "path": "sprites/s_slave/s_slave.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,10 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_slave","path":"objects/o_slave/o_slave.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"o_slave","path":"objects/o_slave/o_slave.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_slave",
+  "name": "o_collision",
   "tags": [],
   "resourceType": "GMObject",
 }
